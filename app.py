@@ -18,7 +18,7 @@ q = ""
 def loadPage():
 	return render_template('home.html', query="")
 
-
+#POST Method
 @app.route("/", methods=['POST'])
 def predict():
     
